@@ -31,7 +31,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.2html.html">Nos Creations</a>
+                        <a class="nav-link" href="index.2html.html">Nos Créations</a>
                     </li>
 
                     <li class="nav-item">
@@ -43,10 +43,14 @@
         </nav>
 
     </header>
-    <div class="sky d-flex align-items-center justify-content-center ">
-        <form class="contacter  ">
-            <div>
-                <h3>Faites nous part du gateau de vos reves...</h3>
+
+    <!--Forum-->
+    <div class=" row sky  ">
+
+
+        <form >
+            <div id="bg" class=" contacter  ">
+                <h3>Faites nous part du gâteau de vos rêves...</h3>
 
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Genre</option>
@@ -54,17 +58,20 @@
                     <option value="2">M.</option>
                     <option value="3">Autre</option>
                 </select>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nom</label>
-                    <input type="firstname" class="form-control" id="exampleFormControlInput1" placeholder="Beurre">
+
+                <div class="col-mb-3">
+                    <label for="nameandfirt" class="form-label">Nom</label>
+                    <input type="firstname" class="form-control" id="nameandfirt" placeholder="Beurre">
                 </div>
+
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Prénom</label>
-                    <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Madeleine">
+                    <label for="nameandfirt" class="form-label">Prénom</label>
+                    <input type="lastname" class="form-control" id="nameandfirt" placeholder="Madeleine">
                 </div>
+
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Tel</label>
-                    <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="0620304840">
+                    <label for="tel" class="form-label">Tel</label>
+                    <input type="phone" class="form-control " id="tel" placeholder="0620304840">
                 </div>
 
                 <div class="mb-3">
@@ -76,100 +83,118 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <button type="button" data-toggle="modal" data-target="#exampleModal"
-                                    class="text-white btn btn-dark">Envoyer !</button>
-                            </div>
+                    <div class="col-md-3 ">
+                        <div class="card">
+                            <button type="button" data-toggle="modal" data-target="#exampleModal"
+                                class="text-white btn btn-dark card-body">Envoyer !</button>
                         </div>
                     </div>
                 </div>
             </div>
         </form>
+
+        <!--Google map-->
+        <div  class="row d-flex  align-items-center">
+            <div class="col-md-43">
+                <div id="map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21006.919232249616!2d2.
+                    2763224687904753!3d48.84171552427895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67014196e60f
+                    5%3A0x1c0b82c6e1d851e0!2s75015%20Paris!5e0!3m2!1sen!2sfr!4v1619637148245!5m2!1sen!2sfr" 
+                    width="600" height="450"  allowfullscreen="" loading="lazy"></iframe>
+                        
+                </div>
+            </div>
+        </div>
+        <!--Google Maps-->
+
+
+
     </div>
 
 
 
-    <div class="modal position-fixed text-center" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+
+
+    <div class="modal position-fixed text-center" id="exampleModal" tabindex="1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog " role="document">
             <div class="modal-content ">
 
                 <div class="modal-header ">
-
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                </div>
+
+                <div class="modal-header ">
+                    <h3>Bien Reçu ! À bientôt !</h3>
                 </div>
 
                 <div class="modal-body">
                     <img id="lapinou" src="assets/img/lapin.jpg" alt="lapinou">
                 </div>
 
-                <div class="modal-footer ">
-                    <h3>Bien Recu ! A bientot !</h3>
+               
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class=" text-lg-start text-white ">
+
+        <div class="container p-4">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <div id="logo">
+                        <img src="assets/png/logoblanc.png" alt="logo Emma's Cake ">
+                    </div>
+
+                    <p>
+                        23 rue de la Florette, 75015 PARIS. </p>
+                    <p> +33 1 XX XX XX XX </p>
+                    <p> Horaires: Du lundi au samedi de 9H à 19H.</p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                    <p> Page d'accueil</p>
+                    <p>Mentions légales</p>
+                    <p>CGU/CGV</p>
+                    <p>Cookies</p>
+                    <p> Crédits</p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <form id="email">
+                        <input type="email" class="form-control form-control-sm mb-3  " id="email"
+                            placeholder="Votre E-mail">
+                    </form>
+                    <p>Pour découvrir toutes nos dernières nouveautés, envoyez nous votre mail.</p>
+                    <div class="pt-5 d-flex justify-content-around">
+                        <img src="assets/png/iconinsta.png" alt="logo intagramme">
+                        <img src="assets/png/icontw.png" alt="logo Twiter">
+                        <img src="assets/png/iconfb.png" alt="logo Facebook">
+                    </div>
                 </div>
 
             </div>
-        </div>
-    </div>
 
-             <!-- Footer -->
-<footer id="footer" class=" text-lg-start text-white ">
-   
-    <div class="container p-4">
-    
-      <div class="row">
-       
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <div id="logo">
-                <img src="assets/png/logoblanc.png" alt="logo Emma's Cake ">
-            </div>
-  
-          <p>
-            23 rue de la Florette, 75015 PARIS. </p>
-           <p> +33 1 XX XX XX XX </p> 
-           <p>  Horaires: Du lundi au samedi de 9H à 19H.</p> 
-          
         </div>
-     
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-  
-          <p> Page d'accueil</p>
-           <p>Mentions légales</p>
-           <p>CGU/CGV</p>
-          <p>Cookies</p>
-          <p> Crédits</p>
-        
+
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2020 Copyright: Ambre Legay / Manon Pradier
+
         </div>
-        
-                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <form id="email">
-                <input type="email" class="form-control form-control-sm mb-3  " id="email"
-                    placeholder="Votre E-mail">
-            </form>
-            <p>Pour découvrir toutes nos dernières nouveautés, envoyez nous votre mail.</p>
-            <div class="pt-5 d-flex justify-content-around">
-                <img src="assets/png/iconinsta.png" alt="logo intagramme">
-                <img src="assets/png/icontw.png" alt="logo Twiter">
-                <img src="assets/png/iconfb.png" alt="logo Facebook">
-            </div>
-        </div>
-      
-      </div>
-     
-    </div>
-  
-  
-    <!-- Copyright -->
-    <div class="text-center p-3">
-      © 2020 Copyright: Ambre Legay / Manon Pradier 
-      
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
 </body>
 

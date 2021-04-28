@@ -1,11 +1,12 @@
 @font-face {
     font-family: "sardoche";
-    src: url(../font/Souvenir_Greek_Demi_BT.ttf);
+    src: url(../font/Lora-SemiBoldItalic.ttf);
 }
 
 @font-face {
     font-family: "ronnie";
     src: url(../font/PTSerif-Regular.ttf);
+
 }
 
 html {
@@ -16,7 +17,7 @@ h1 {
     font-family: "sardoche";
     font-size: 50px;
     color: rgb(75, 78, 109, );
-   
+
 }
 
 h2,
@@ -24,6 +25,15 @@ h3 {
     font-family: "sardoche";
     font-size: 30px;
 
+}
+
+hr {
+    background-color: #D0ADA7;
+    height: 2px;
+    color: #D0ADA7;
+    width: 30%;
+    border: none;
+    margin-top: 5rem;
 }
 
 .hv-100 {
@@ -91,18 +101,19 @@ li {
 
 /*Présentation*/
 
-body{
+body {
     background-color: rgb(203, 255, 255);
 }
+
 #présentation {
     background-color: rgb(203, 255, 255);
-    height: 300px;
+    height: 350px;
     width: 100%;
 
 }
 
 #photoPatissiere {
-    height: 290px;
+    height: 300px;
     width: 100%;
 }
 
@@ -115,8 +126,8 @@ body{
 }
 
 
-#text{
-    font-family:  "ronnie";
+#text {
+    font-family: "ronnie";
 
 }
 
@@ -125,6 +136,17 @@ body{
 
 /*Decouvertes*/
 
+.button {
+    background-color: rgba(75, 78, 109, 1);
+    border-radius: 5px;
+    border: solid rgba(75, 78, 109, 1);
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgba(217, 147, 177, 1);
+    border: rgba(217, 147, 177, 1);
+}
 #birthday {
     width: 150px;
     height: 150px;
@@ -165,31 +187,23 @@ body{
 
 
 /*Banniere*/
-
-.banniere{
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/imagebanniere.jpg);
-}
-
 #hoverTry {
-    position: relative;    
+    position: relative;
 }
 
 .banniere {
-    height: 100%;
-    width: 100%;
-   
+    background-image: url(../img/imagebanniere.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 300px;
+    width: 100%;
 }
 
 #overlayContainer {
     position: absolute;
     opacity: 0;
 }
-
 .banniere:hover {
     filter: blur(.2rem);
 }
@@ -197,6 +211,7 @@ body{
 .banniere:hover + #overlayContainer{
     opacity: 1;
 }
+
 
 
 /*Banniere*/
@@ -231,22 +246,22 @@ footer img {
     background-position: center;
 }
 
-.love{
+.love {
     background-image: url(../img/laboutique/lovebunny.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-}  
+}
 
-.cool{
+.cool {
     background-image: url(../img/laboutique/coolbunny.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.bad{
+.bad {
     background-image: url(../img/laboutique/storybunny.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,12 +295,15 @@ footer img {
 
 .nosCaroussel {
     width: 100%;
-    height: 30%;
+    height: 100%;
 }
 
 #bgPourText {
     background-color: rgb(250, 250, 250, 0.5);
 }
+
+
+
 
 /*Nos Création*/
 
@@ -297,25 +315,23 @@ footer img {
 
 
 /* Page Formulaire*/
-.button {
-    background-color: rgba(75, 78, 109, 1);
-    border-radius: 10px;
-    border: solid rgba(75, 78, 109, 1);
-    border-radius: 10px;
+#tel{
+    width: 300px;
+
+}
+#nameandfirt{ 
+width: 215px;
 }
 
-.button:hover {
-    background-color: rgba(217, 147, 177, 1);
-    border: rgba(217, 147, 177, 1);
-}
 
+.card{
+height: 10px;
+    width: 100%;
+}
 
 
 
 .contacter {
-  
-    width: 50%;
-    height: 100%;
     margin: 10rem;
 }
 
@@ -335,4 +351,25 @@ footer img {
     height: 400Px;
 }
 
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:100%;
+    }
+
+    
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    
+#bg{
+    background-color: rgb(250, 250, 250, 0.1);
+ 
+}
 /*Page Formulaire*/
