@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "sardoche";
+    src: url(../font/Souvenir_Greek_Demi_BT.ttf);
+}
+
+@font-face {
+    font-family: "ronnie";
+    src: url(../font/PTSerif-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "sardoche";
+    font-size: 50px;
+    color: rgb(75, 78, 109, );
+   
+}
+
+h2,
+h3 {
+    font-family: "sardoche";
+    font-size: 30px;
+
+}
+
+.hv-100 {
+    height: 100vh;
+}
+
+
+/*Header*/
+#navBar {
+    background-color: rgba(217, 147, 177, 1);
+    font-family: "sardoche";
+    font-size: 25px;
+    width: 100%;
+    z-index: 1500;
+    height: 100px;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover {
+    color: rgba(75, 78, 109, 1) !important;
+}
+
+#logoWhite {
+    width: 100px;
+    height: 100px;
+}
+
+li {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*Header*/
+
+
+/* Couverture Pinata Cake*/
+#photoSmarties {
+    background-image: url(../img/sparkles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+#bg-light {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(250, 250, 250, 0.7);
+}
+
+#cakeHeader {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Couverture Pinata Cake*/
+
+
+/*Présentation*/
+
+body{
+    background-color: rgb(203, 255, 255);
+}
+#présentation {
+    background-color: rgb(203, 255, 255);
+    height: 300px;
+    width: 100%;
+
+}
+
+#photoPatissiere {
+    height: 290px;
+    width: 100%;
+}
+
+#patissiere {
+    background-image: url(../img/patissiere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 30%;
+}
+
+
+#text{
+    font-family:  "ronnie";
+
+}
+
+/*Présentation*/
+
+
+/*Decouvertes*/
+
+#birthday {
+    width: 150px;
+    height: 150px;
+}
+
+#wedding {
+    width: 150px;
+    height: 150px;
+}
+
+#cupcake {
+    width: 150px;
+    height: 150px;
+}
+
+#piece {
+    width: 150px;
+    height: 150px;
+}
+
+.decouvrir {
+    background-color: rgba(132, 220, 198, 1);
+    width: 100%;
+
+}
+
+/*Decouvertes*/
+
+
+/*Vidéo*/
+#video {
+    background-color: rgba(149, 163, 179, 1);
+    height: 400px;
+    width: 100%;
+}
+
+/*Vidéo*/
+
+
+/*Banniere*/
+
+.banniere{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/imagebanniere.jpg);
+}
+
+#hoverTry {
+    position: relative;    
+}
+
+.banniere {
+    height: 100%;
+    width: 100%;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#overlayContainer {
+    position: absolute;
+    opacity: 0;
+}
+
+.banniere:hover {
+    filter: blur(.2rem);
+}
+
+.banniere:hover + #overlayContainer{
+    opacity: 1;
+}
+
+
+/*Banniere*/
+
+
+
+/*Footer*/
+#footer {
+    background-color: rgb(220, 157, 184);
+    font-size: 15px;
+    font-family: 'ronnie', Times, serif;
+}
+
+#email {
+    width: 215px;
+    height: 40px;
+}
+
+footer img {
+    height: 50px;
+}
+
+/*Footer*/
+
+
+/*Page Story*/
+
+#bunnyHeader {
+    background-image: url(../img/laboutique/storybunny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.love{
+    background-image: url(../img/laboutique/lovebunny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}  
+
+.cool{
+    background-image: url(../img/laboutique/coolbunny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bad{
+    background-image: url(../img/laboutique/storybunny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/*Page Story*/
+
+/*Page nos créations*/
+#cremeHeader {
+    background-image: url(../img/nosCréa/cremeheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bglight {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(250, 250, 250, 0.7);
+}
+
+
+#bgCrea {
+    background-color: rgb(132, 220, 198);
+}
+
+.nosCaroussel {
+    width: 100%;
+    height: 30%;
+}
+
+#bgPourText {
+    background-color: rgb(250, 250, 250, 0.5);
+}
+
+/*Nos Création*/
+
+
+
+
+
+
+
+
+/* Page Formulaire*/
+.button {
+    background-color: rgba(75, 78, 109, 1);
+    border-radius: 10px;
+    border: solid rgba(75, 78, 109, 1);
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgba(217, 147, 177, 1);
+    border: rgba(217, 147, 177, 1);
+}
+
+
+
+
+.contacter {
+  
+    width: 50%;
+    height: 100%;
+    margin: 10rem;
+}
+
+.sky {
+    background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#exampleModal {
+    z-index: 1500;
+}
+
+#lapinou {
+    width: 300px;
+    height: 400Px;
+}
+
+/*Page Formulaire*/

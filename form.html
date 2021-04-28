@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="../Emma's Cake/assets/png/shortcut.png">
+    <title>Emma's Cake</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg position-fixed" id="navBar">
+            <a href="index.html" class="navbar-brand" href="index.html"><img id="logoWhite" alt="Logo"
+                    src="assets/png/logoblanc.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="story.html">La Boutique</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.2html.html">Nos Creations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Nous Contacter</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="sky d-flex align-items-center justify-content-center ">
+        <form class="contacter  ">
+            <div>
+                <h3>Faites nous part du gateau de vos reves...</h3>
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Genre</option>
+                    <option value="1">Mme.</option>
+                    <option value="2">M.</option>
+                    <option value="3">Autre</option>
+                </select>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                    <input type="firstname" class="form-control" id="exampleFormControlInput1" placeholder="Beurre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+                    <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Madeleine">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Tel</label>
+                    <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="0620304840">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Adresse Mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.fr">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Décrivez-nous vos envies</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"
+                                    class="text-white btn btn-dark">Envoyer !</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="modal position-fixed text-center" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content ">
+
+                <div class="modal-header ">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img id="lapinou" src="assets/img/lapin.jpg" alt="lapinou">
+                </div>
+
+                <div class="modal-footer ">
+                    <h3>Bien Recu ! A bientot !</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+             <!-- Footer -->
+<footer id="footer" class=" text-lg-start text-white ">
+   
+    <div class="container p-4">
+    
+      <div class="row">
+       
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div id="logo">
+                <img src="../gateaux/assets/png/logoblanc.png" alt="logo Emma's Cake ">
+            </div>
+  
+          <p>
+            23 rue de la Florette, 75015 PARIS. </p>
+           <p> +33 1 XX XX XX XX </p> 
+           <p>  Horaires: Du lundi au samedi de 9H à 19H.</p> 
+          
+        </div>
+     
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  
+          <p> Page d'accueil</p>
+           <p>Mentions légales</p>
+           <p>CGU/CGV</p>
+          <p>Cookies</p>
+          <p> Crédits</p>
+        
+        </div>
+        
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <form id="email">
+                <input type="email" class="form-control form-control-sm mb-3  " id="email"
+                    placeholder="Votre E-mail">
+            </form>
+            <p>Pour découvrir toutes nos dernières nouveautés, envoyez nous votre mail.</p>
+            <div class="pt-5 d-flex justify-content-around">
+                <img src="../gateaux/assets/png/iconinsta.png" alt="logo intagramme">
+                <img src="../gateaux/assets/png/icontw.png" alt="logo Twiter">
+                <img src="../gateaux/assets/png/iconfb.png" alt="logo Facebook">
+            </div>
+        </div>
+      
+      </div>
+     
+    </div>
+  
+  
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      © 2020 Copyright: Ambre Legay / Manon Pradier 
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+</html>
