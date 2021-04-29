@@ -19,49 +19,47 @@
 <body>
     <!--Header-->
     <header>
-        <nav class="navbar navbar-expand-lg position-fixed" id="navBar">
-            <a href="index.html" class="navbar-brand" href="index.html"><img id="logoWhite" alt="Logo"
-                    src="assets/png/logoblanc.png"></a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg position-fixed  navbar-dark w-100" id="navBar">
+            <a class="navbar-brand" href="index.html"></a>
+            <a class="nav-link" href="index.html"><img id="logoWhite" alt="Logo" href="index.html"
+                src="assets/png/logoblanc.png">
+            <span class="sr-only">(current)</span>
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                
                 <ul class="navbar-nav mr-auto">
-
                     <li class="nav-item">
                         <a class="nav-link" href="story.html">La Boutique</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="index.2html.html">Nos Créations</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="form.html">Nous Contacter</a>
                     </li>
-
                 </ul>
-            </div>
         </nav>
     </header>
     <!--Header-->
 
     <!--Couverture Pinata Cake-->
-    <section>
-        <div id="photoSmarties" class="d-flex justify-content-center align-items-center">
-            <div class="text-center pt-5 " id="bg-light">
+    
+        <div id="photoSmarties" class="d-flex justify-content-center align-items-center w-100">
+            <div class="text-center justify-content-center align-items-center" id="bg-light">
                 <h1>Tu en rêves ? On le fait pour toi.</h1>
             </div>
+        </div>
 
-    </section>
+   
     <!--Couverture Pinata Cake-->
     <!--Présentation-->
-    <div id="présentation" class="w-100 ">
+    <div id="présentation">
 
-        <div class="row d-flex align-items-center  w-100">
+        <div class="row d-flex align-items-center ">
 
             <div class="col-md-5 pl-5 pt-5" id="text">
                 <div>
@@ -76,15 +74,15 @@
                     <p> <strong> Succomberez-vous à nos gâteaux </strong></p>
                 </div>
             </div>
-            <div class="col-md-5 d-flex flex-row-reverse align-items-center pt-5 " id="photoPatissiere">
-                <div id="patissiere"></div>
+            <div class=" col-md-5 d-flex flex-row-reverse align-items-center pt-5" id="photoPatissiere">
+                <div class="w-50"  id="patissiere"></div>
             </div>
         </div>
     </div>
     <!--présentation-->
     <!--Carousell-->
-    <div class="hv-100">
-        <div id="carouselCake" class="carousel slide" data-ride="carousel">
+    
+        <div id="carouselCake" class="carousel slide w-100 " data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouseLCake" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselCake" data-slide-to="1"></li>
@@ -114,12 +112,12 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
+    
     <!--Carousell-->
 
     <!--Decouvertes-->
     <section class="decouvir ">
-        <div class="row  align-items-center justify-content-center decouvrir text-center pt-5 w-100" id="text">
+        <div class="row  align-items-center justify-content-center decouvrir text-center pt-5 " id="text">
             <div class="col-md-4 pt-5">
                 <img class="img-fluid" id="birthday" alt="BirthdayCake" src="assets/png/anniversaire.png">
                 <h2>Gâteaux d'anniversaire</h2>
@@ -161,11 +159,11 @@
 
 
     <!--Intégration d'une vidéo-->
-    <section class="videoBunny ">
+    <section class="videoBunny w-100 ">
         <div id="video" class="d-flex align-items-center justify-content-center text-white">
             <div class=" text-center text-dark">
                 <h3>Notre dernière création</h3>
-                <video autoplay loop muted width="560" height="315" frameborder="0">
+                <video autoplay loop muted width="400" height="315" frameborder="0">
                     <source src="assets/img/bunnyvideo.mp4" type="video/mp4">
                 </video>
             </div>
@@ -177,17 +175,17 @@
     <!--banniere-->
     <div id="photoBanniere " class="row w-100 m-0 align-items-center justify-content-center">
         <div id="hoverTry" class="col-6 h-25 d-flex align-items-center justify-content-center"></div>
-            <div class="banniere"> </div>
-            <div id="overlayContainer">
-                <h3 class="text-dark">Toutes nos Créations</h3>
-            </div>
+        <div class="banniere"> </div>
+        <div id="overlayContainer">
+            <h3 class="text-dark">Toutes nos Créations</h3>
         </div>
+    </div>
 
     </div>
     <!--banniere-->
 
-    <!-- Footer -->
-    <footer id="footer" class=" text-lg-start text-white ">
+     <!-- Footer -->
+     <footer id="footer" class=" text-lg-start text-white ">
 
         <div class="container p-4">
 
