@@ -40,6 +40,7 @@ hr {
     height: 100vh;
 }
 
+.row{ margin: 0; }
 
 /*Header*/
 
@@ -399,5 +400,5 @@ footer img {
         height: 100px;
         width: 100%;
     }
-  
+    
 }
